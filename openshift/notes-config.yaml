@@ -1,0 +1,13 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: notes-config
+  namespace: notes-app
+data:
+  APP_KEY: c7VYmWJo52GlmTM3ZW1aOAe7BPQUPw0y
+  CACHE_VIEWS: 'false'
+  ENV_SILENT: 'true'
+  HASH_DRIVER: bcrypt
+  HOST: 0.0.0.0
+  PORT: '8080'
+  SESSION_DRIVER: cookie
